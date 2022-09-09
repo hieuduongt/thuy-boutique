@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="./public/css/product.css" rel="stylesheet">
+  <link href="./public/css/bootstrap.min.css" rel="stylesheet">
+  <script src="./public/js/product.js"></script>
+  <script src="./public/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+  <div class="content-sale">
+    <h4>50% OFF</h4>
+    <h5>On All Winter Coats</h5>
+    <a href="./product.html"><button type="button" class="btn btn-outline-secondary">Shop Now</button></a>
+  </div>
+  <div id="filter">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <div class="nav-item dropdown">
+          <p class=" mx-3 px-3 dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categories
+          </p>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </div>
+        <span class=" mx-3">Filter By </span>
+        <button type="button" class="btn mx-3">Popular</button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <button type="button" class="btn mx-3">Latest</button>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn mx-3">Selling</button>
+            </li>
+            <li class="nav-item dropdown">
+              <button class="btn mx-3 dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Price
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">From High To Low</a></li>
+                <li><a class="dropdown-item" href="#">From Low To High</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p style="float:right ;"><span>1</span>/3</p>
+      <div class="pagination">
+        <button class="decrease">❮</button>
+        <button class="ascending">❯</button>
+      </div>
+    </nav>
+  </div>
+  <div class="product-list">
+    <div class="product">
+      <a href="">
+        <img src="./img/img-product.jpg" alt="" class="img-product">
+        <div class="content-product">
+          <h4 class="name-product">MartPlace Extension Bundle</h4>
+          <div class="detailed-description">
+            <div class="seller">
+              <img src="./img/img-auth.jpg" alt="" class="img-auth">
+              <p>AazzTech</p>
+            </div>
+            <div class="product-child">
+              <ion-icon name="albums-outline" size="large" class="icon-plugin"></ion-icon>
+              <p>
+                Plugin
+              </p>
+            </div>
+          </div>
+          <p class="product-description">
+            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+            mattis,
+          </p>
+        </div>
+      </a>
+      <hr class="dropdown-divider">
+      <div id="price-heart">
+        <div class="price">$10 -$50</div>
+        <div id="icon-heart">
+          <div class="icon-heart show">
+            <ion-icon name="heart-outline" onclick="show_hidden()"></ion-icon>
+          </div>
+          <div class=" icon-heart hidden">
+            <ion-icon name="heart" style="color:red;" onclick="show_hidden ()"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <a href="">
+        <img src="./img/img-product.jpg" alt="" class="img-product">
+        <div class="content-product">
+          <h4 class="name-product">MartPlace Extension Bundle</h4>
+          <div class="detailed-description">
+            <div class="seller">
+              <img src="./img/img-auth.jpg" alt="" class="img-auth">
+              <p>AazzTech</p>
+            </div>
+            <div class="product-child">
+              <ion-icon name="albums-outline" size="large" class="icon-plugin"></ion-icon>
+              <p>
+                Plugin
+              </p>
+            </div>
+          </div>
+          <p class="product-description">
+            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+            mattis,
+          </p>
+        </div>
+      </a>
+      <hr class="dropdown-divider">
+      <div id="price-heart">
+        <div class="price">$10 -$50</div>
+        <div id="icon-heart">
+          <div class="icon-heart show">
+            <ion-icon name="heart-outline" onclick="show_hidden()"></ion-icon>
+          </div>
+          <div class=" icon-heart hidden">
+            <ion-icon name="heart" style="color:red;" onclick="show_hidden ()"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <a href="">
+        <img src="./img/img-product.jpg" alt="" class="img-product">
+        <div class="content-product">
+          <h4 class="name-product">MartPlace Extension Bundle</h4>
+          <div class="detailed-description">
+            <div class="seller">
+              <img src="./img/img-auth.jpg" alt="" class="img-auth">
+              <p>AazzTech</p>
+            </div>
+            <div class="product-child">
+              <ion-icon name="albums-outline" size="large" class="icon-plugin"></ion-icon>
+              <p>
+                Plugin
+              </p>
+            </div>
+          </div>
+          <p class="product-description">
+            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+            mattis,
+          </p>
+        </div>
+      </a>
+      <hr class="dropdown-divider">
+      <div id="price-heart">
+        <div class="price">$10 -$50</div>
+        <div id="icon-heart">
+          <div class="icon-heart show">
+            <ion-icon name="heart-outline" onclick="show_hidden()"></ion-icon>
+          </div>
+          <div class=" icon-heart hidden">
+            <ion-icon name="heart" style="color:red;" onclick="show_hidden ()"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="product">
+      <a href="">
+        <img src="./img/img-product.jpg" alt="" class="img-product">
+        <div class="content-product">
+          <h4 class="name-product">MartPlace Extension Bundle</h4>
+          <div class="detailed-description">
+            <div class="seller">
+              <img src="./img/img-auth.jpg" alt="" class="img-auth">
+              <p>AazzTech</p>
+            </div>
+            <div class="product-child">
+              <ion-icon name="albums-outline" size="large" class="icon-plugin"></ion-icon>
+              <p>
+                Plugin
+              </p>
+            </div>
+          </div>
+          <p class="product-description">
+            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+            mattis,
+          </p>
+        </div>
+      </a>
+      <hr class="dropdown-divider">
+      <div id="price-heart">
+        <div class="price">$10 -$50</div>
+        <div id="icon-heart">
+            <ion-icon name="heart-outline" onclick="show_hidden()"></ion-icon>
+            <ion-icon name="heart" style="color:red;" onclick="show_hidden ()"></ion-icon>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
